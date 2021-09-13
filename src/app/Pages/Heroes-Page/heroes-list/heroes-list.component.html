@@ -7,7 +7,7 @@
     <p-table #dt [value]="heroesList" dataKey="id" styleClass="p-datatable-customers" [rowHover]="true"
              [rows]="10" [showCurrentPageReport]="true" [rowsPerPageOptions]="[10,25,50]"
              [paginator]="true" currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
-             [filterDelay]="0" [globalFilterFields]="['name','country.name','representative.name','status']">
+             [filterDelay]="0" [globalFilterFields]="['name','power','rate']">
       <ng-template pTemplate="caption">
         <div class="table-header">
           <mat-form-field class="w-100" appearance="outline">
