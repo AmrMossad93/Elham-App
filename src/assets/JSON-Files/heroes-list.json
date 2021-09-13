@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "MR.ROBOT",
+    "power": "Coding with VIM, Know Angular",
+    "imgPath": "assets/Images/thumb-350-688067.jpg",
+    "rate": 4
+  },
+  {
+    "id": 2,
+    "name": "Richard Stallman",
+    "power": "Freedom Protector",
+    "imgPath": "assets/Images/download.jpg",
+    "rate": 3
+  },
+  {
+    "id": 3,
+    "name": "Tim Berners-Lee",
+    "power": "Transport Objects Through HTTP",
+    "imgPath": "assets/Images/Sir_Tim_Berners-Lee.jpg",
+    "rate": 2
+  }
+]

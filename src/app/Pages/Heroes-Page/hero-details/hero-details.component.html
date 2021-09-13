@@ -1,0 +1,17 @@
+<button mat-mini-fab (click)="onClose()" class="float-end" color="warn" mat-dialog-close>X</button>
+<h2 mat-dialog-title> The Hero {{data.name}}</h2>
+
+<mat-card class="w-100">
+  <mat-card-header>
+    <mat-card-title>{{data.name}}</mat-card-title>
+    <mat-card-subtitle>
+      <p-rating [(ngModel)]="data.rate" [readonly]="true" [cancel]="false"></p-rating>
+    </mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image [src]="data.imgPath" [alt]="data.name">
+  <mat-card-content>
+    <p>
+      {{data.power}}
+    </p>
+  </mat-card-content>
+</mat-card>
